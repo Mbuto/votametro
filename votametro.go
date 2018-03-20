@@ -6,7 +6,6 @@ import (
     "appengine"
     "appengine/datastore"
     "appengine/user"
-//    "strconv"
     "time"
    "strings"
     "regexp"
@@ -16,6 +15,7 @@ import (
 
 const version = "1.3"
 
+// num. max voci per area
 const maxvoci = 10
 
 type Area struct {
